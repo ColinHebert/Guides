@@ -1,6 +1,10 @@
 {
   "trash_id": "af94e0fe497124d1f9ce732069ec8c3b",
-  "trash_score": "1600",
+  "trash_score": 1600,
+  "trash_scores": {
+    "default": 1600,
+    "anime-radarr": 150
+  },
   "name": "WEB Tier 03",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
@@ -10,7 +14,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(GNOMiSSiON)\\b"
+        "value": "^(GNOMiSSiON)$"
+      }
+    },
+    {
+      "name": "NINJACENTRAL",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(NINJACENTRAL)$"
       }
     },
     {
@@ -19,7 +32,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(ROCCaT)\\b"
+        "value": "^(ROCCaT)$"
       }
     },
     {
@@ -28,7 +41,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(SiGMA)\\b"
+        "value": "^(SiGMA)$"
       }
     },
     {
@@ -37,7 +50,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(SLiGNOME)\\b"
+        "value": "^(SLiGNOME)$"
       }
     },
     {
@@ -46,7 +59,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(SwAgLaNdEr)\\b"
+        "value": "^(SwAgLaNdEr)$"
       }
     },
     {
